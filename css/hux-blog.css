@@ -1111,7 +1111,6 @@ img::-moz-selection {
     
     .form-wrapper {
         width: 470px;
-        padding: 15px;
         margin: 20px auto auto auto;
 /*        background: #444;
         background: rgba(0,0,0,.05);
@@ -1125,7 +1124,7 @@ img::-moz-selection {
     
 	
     .form-wrapper input {
-        width: 330px;
+        width: 360px;
         height: 40px;
         padding: 10px 5px;
         float: left;    
@@ -1213,3 +1212,15 @@ img::-moz-selection {
         border: 0;
         padding: 0;
     }
+
+@media (max-width: 768px) {
+	.form-wrapper {
+        width: 360px;
+	}
+	.form-wrapper input {
+        width: 288px;
+	}
+	.form-wrapper button {
+		width: 72px;
+	}
+}
