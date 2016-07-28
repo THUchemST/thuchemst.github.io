@@ -1,7 +1,12 @@
 ---
 layout: page
-description: "<I>Student Association of Science &amp; Technology</I> <br>Department of Chemistry, THU"
+description: "<Strong>Student Association of Science &amp; Technology</strong><br>Department of Chemistry, THU"
 ---
+
+<form action="http://scholar.scilib.org" class="form-wrapper cf">
+	<input type="text" placeholder="Search here..." required="" name="q">
+	<button type="submit">Search</button>
+</form>
 
 {% for post in paginator.posts %}
 <div class="post-preview">
