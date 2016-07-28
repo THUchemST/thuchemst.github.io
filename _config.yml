@@ -92,12 +92,30 @@ link: [
         title: "",
         href: ""
     },{
-        title: "ACS Publication",
-        href: "http://pubs.acs.com"
-    },{
         title: "Nature",
         href: "http://www.nature.com/nature/current_issue.html"
     },{
         title: "Science",
         href: "http://science.sciencemag.org"
+    },{
+        title: "ACS Publication",
+        href: "http://pubs.acs.com"
+    },{
+        title: "Royal Society of Chemistry",
+        href: "http://pubs.rsc.org/en/journals"
+    },{
+        title: "Organic Chemistry Journals",
+        href: "http://www-jmg.ch.cam.ac.uk/data/c2k/cj/organic.html"
+    },{
+        title: "",
+        href: ""
+    },{
+        title: "Sci-Hub",
+        href: "http://www.sci-hub.cc"
+    },{
+        title: "Library Genesis",
+        href: "http://gen.lib.rus.ec"
+    },{
+        title: "Chemistry Reference Resolver",
+        href: "http://chemsearch.kovsky.net"
     }]
