@@ -1111,6 +1111,7 @@ img::-moz-selection {
     
     .form-wrapper {
         width: 470px;
+        padding: 15px;
         margin: 20px auto auto auto;
 /*        background: #444;
         background: rgba(0,0,0,.05);
@@ -1124,7 +1125,7 @@ img::-moz-selection {
     
 	
     .form-wrapper input {
-        width: 360px;
+        width: 330px;
         height: 40px;
         padding: 10px 5px;
         float: left;    
@@ -1213,7 +1214,6 @@ img::-moz-selection {
         padding: 0;
     }
 
-<<<<<<< HEAD
 
 /* Use during Freshman Chemistry Competition */
 /* Begin Timeline */
@@ -1348,16 +1348,3 @@ img::-moz-selection {
 
 
 /* End Timeline */
-=======
-@media (max-width: 768px) {
-	.form-wrapper {
-        width: 360px;
-	}
-	.form-wrapper input {
-        width: 288px;
-	}
-	.form-wrapper button {
-		width: 72px;
-	}
-}
->>>>>>> 621366a77bbdc8ba992230fb142cc1ecdb6af95c
