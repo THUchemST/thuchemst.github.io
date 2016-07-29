@@ -1213,3 +1213,138 @@ img::-moz-selection {
         border: 0;
         padding: 0;
     }
+
+
+/* Use during Freshman Chemistry Competition */
+/* Begin Timeline */
+
+
+.content {
+	width:1000px;
+	margin:0 auto;
+}
+
+/* href_path */
+
+.href_path {
+	padding:0 0 80px 0;
+	width:100%;
+	margin:0 auto 10px;
+}
+.href_path a h2 {
+	font-family:'BebasNeueRegular';
+	color:#353535;
+	margin:0 20px 0 20px;
+}
+.href_path a:hover h2 {
+	color: #1F85AA;
+}
+
+/* left path */
+
+.href_path_left {
+	background:url(../freshman/images/path_left.png) no-repeat center bottom;
+}
+
+.href_path_left.href_path2 {
+	background:url(../freshman/images/about_left.png) no-repeat center bottom;
+}
+
+.href_path_left a,
+.href_no_path_left a {
+	float:left;
+	
+}
+.href_path_left div,
+.href_no_path_left div {
+	padding:45px 0 0 150px;
+
+}
+
+.href_path_left.href_path2 div, 
+.href_no_path_left.href_path2 div {
+	padding:0 0 0 262px !important;
+}
+
+
+.href_path_left img.content_icon,
+.href_no_path_left img.content_icon {
+	float:left;
+}
+
+/* right path */
+
+.href_path_right {
+	background:url(../freshman/images/path_right.png) no-repeat center bottom;
+}
+
+.href_path_right.href_path2 {
+	background:url(../freshman/images/path_right.png) no-repeat center bottom;
+}
+
+.href_path_right a,
+.href_no_path_right a {
+	float:right;
+}
+.href_path_right div,
+.href_no_path_right div {
+	padding:45px 150px 0 0;
+	text-align: right;
+
+}
+.href_path_right.href_path2 div 
+.href_no_path_right.href_path2 div {
+	padding:0 262px 0 0 !important;
+}
+
+.href_path_right img.content_icon,
+.href_no_path_right img.content_icon {
+	float:right;
+}
+
+/* no path */
+.href_path.href_no_path_left,
+.href_path.href_no_path_right {
+	padding-bottom:0;
+}
+
+/* left path about */
+.href_path_about{
+	line-height: 2em; 
+	border-bottom:1px dashed #000;
+	margin-bottom:20px;}
+
+	
+.href_path_about h2{
+	font-family:'BebasNeueRegular';
+	font-size:30px;
+	padding:0 40px 5px 0;
+	margin:0;
+	font-weight:normal;
+}
+.href_path_about img{
+	float:right;
+	margin-top:-31px;
+
+}
+
+
+/* right path_about */
+.href_path_link{
+	text-align:right;
+	margin-top:-45px;
+	}
+	
+.href_path_link h6{
+	font-family:'BebasNeueRegular';
+	font-size:17px;
+	font-weight:300;
+	margin:40px 0px;
+}
+
+.href_path_link a{
+	color:#1F85AA;	
+}
+
+
+/* End Timeline */
