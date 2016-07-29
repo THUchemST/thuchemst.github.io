@@ -1213,6 +1213,18 @@ img::-moz-selection {
         border: 0;
         padding: 0;
     }
+	
+@media (max-width: 768px) {
+	.form-wrapper {
+        width: 360px;
+	}
+	.form-wrapper input {
+        width: 288px;
+	}
+	.form-wrapper button {
+		width: 72px;
+	}
+}
 
 
 /* Use during Freshman Chemistry Competition */
