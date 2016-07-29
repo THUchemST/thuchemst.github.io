@@ -119,3 +119,30 @@ link: [
         title: "Chemistry Reference Resolver",
         href: "http://chemsearch.kovsky.net"
     }]
+
+
+
+# Resources
+software: [
+        {
+          title: "ChemDraw 15.0 win",
+          href: "http://pan.baidu.com/s/1qXZ5eWG",
+          code: ge9e
+        },{
+          title: "Gaussian09 D.01 lnx",
+          href: "http://pan.baidu.com/s/1i4QVVtN",
+          code: ksuc
+        },{
+          title: "Gaussian09 D.01 win",
+          href: "http://pan.baidu.com/s/1c23FMgS",
+          code: wnn4
+        },{
+          title: "GaussView 5.0.9 win",
+          href: "http://pan.baidu.com/s/1hr7vjlM",
+          code: 6tg8
+        },{
+          title: "GaussView 5.0.9 lnx",
+          href: "http://pan.baidu.com/s/1kUBYJiR",
+          code: vbhf
+        },]
+
