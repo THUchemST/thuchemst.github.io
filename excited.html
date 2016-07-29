@@ -1,0 +1,40 @@
+---
+layout: excited
+description: "+1s 吼不吼啊"
+header-img: "img/excited-bg.jpg"
+---
+
+	<div align="center">
+		<strong>
+    		<h1><br><br>天若有情天亦老<br>
+						我为长者续一秒</h1>
+		</strong>
+	</div>
+    
+		<style>
+            body {
+                margin: 0;
+                padding: 0;
+                text-align: center;
+            }
+            #screen {
+                display: inline-block;
+            }
+        </style>
+        
+    <body>
+    	<div id="screen"></div>
+        <script src="/excited/phaser.min.js"></script>
+        <script src="/excited/main.js"></script>
+        <script>
+            initGame({
+                feedback: '"5"可奉告',
+                feedbackFunc: function() {
+                    window.open('https://github.com/tusenpo/FlappyFrog/issues');
+                },
+                parent: document.querySelector('#screen')
+            });
+		</script>
+    </body>
+
+
