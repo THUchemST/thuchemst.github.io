@@ -125,9 +125,13 @@ link: [
 # Resources
 software: [
         {
-          title: "ChemDraw 15.0 win",
-          href: "http://pan.baidu.com/s/1qXZ5eWG",
-          code: ge9e
+          title: "ChemOffice 15.1 win",
+          href: "http://pan.baidu.com/s/1miB7Sso",
+          code: 4z9d
+        },{
+          title: "ChemDraw 15.0 mac",
+          href: "http://pan.baidu.com/s/1geEjFRt",
+          code: nyyf
         },{
           title: "Gaussian09 D.01 lnx",
           href: "http://pan.baidu.com/s/1i4QVVtN",
@@ -144,5 +148,17 @@ software: [
           title: "GaussView 5.0.9 lnx",
           href: "http://pan.baidu.com/s/1kUBYJiR",
           code: vbhf
+        },{
+          title: "Materials Studio 8.0 win",
+          href: "http://pan.baidu.com/s/1i4IPsS9",
+          code: g3k3
+        },{
+          title: "MestReNova 9.0 win",
+          href: "http://pan.baidu.com/s/1kVhhGLD",
+          code: bzdx
+        },{
+          title: "MestReNova 10.0 mac",
+          href: "http://pan.baidu.com/s/1i5nr0ep",
+          code: kr4g
         },]
 
