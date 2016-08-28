@@ -2,11 +2,11 @@
 title: 清华大学化学系科协
 SEOTitle: 清化科协
 header-img: img/home-bg.jpg
-email: huxpro@gmail.com
+email: thuchemst@163.com
 description: 
 keyword: 
-url: "http://thuchemst.github.io"              # your host, for absolute URL
-baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
+url: "https://thuchemst.github.io"              # your host, for absolute URL
+baseurl: ""          # for example, '/blog' if your blog hosted on 'host/blog'
 
 
 
@@ -126,10 +126,12 @@ link: [
 software: [
         {
           title: "ChemOffice 15.1 win",
+		  href-in: "Software/ChemOffice/ChemOffice 15.1 WIN.zip",
           href: "http://pan.baidu.com/s/1miB7Sso",
           code: 4z9d
         },{
           title: "ChemDraw 15.0 mac",
+		  href-in: "Software/ChemOffice/ChemDraw 15.0 OSX.zip",
           href: "http://pan.baidu.com/s/1geEjFRt",
           code: nyyf
         },{
@@ -139,6 +141,10 @@ software: [
         },{
           title: "Gaussian09 D.01 win",
           href: "http://pan.baidu.com/s/1c23FMgS",
+          code: wnn4
+        },{
+          title: "Gaussian09 D.01 mac with gview",
+          href-in: "Software/Gaussian/G09IM-D01.zip",
           code: wnn4
         },{
           title: "GaussView 5.0.9 win",
