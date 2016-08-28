@@ -136,35 +136,44 @@ software: [
           code: nyyf
         },{
           title: "Gaussian09 D.01 lnx",
+		  href-in: "Software/Gaussian/G09L-D01.zip",
           href: "http://pan.baidu.com/s/1i4QVVtN",
           code: ksuc
         },{
           title: "Gaussian09 D.01 win",
+		  href-in: "Software/Gaussian/G09W-D01-32bit.zip",
           href: "http://pan.baidu.com/s/1c23FMgS",
           code: wnn4
         },{
-          title: "Gaussian09 D.01 mac with gview",
+          title: "Gaussian09 D.01 mac (with gview)",
           href-in: "Software/Gaussian/G09IM-D01.zip",
-          code: wnn4
         },{
           title: "GaussView 5.0.9 win",
+		  href-in: "Software/Gaussian/GaussianView 5.0.9_win.zip",
           href: "http://pan.baidu.com/s/1hr7vjlM",
           code: 6tg8
         },{
           title: "GaussView 5.0.9 lnx",
+		  href-in: "Software/Gaussian/GaussianView 5.0.9_linux.zip",
           href: "http://pan.baidu.com/s/1kUBYJiR",
           code: vbhf
         },{
           title: "Materials Studio 8.0 win",
+		  href-in: "Software/Materials Studio/Materials_Studio 8.0 WIN.zip",
           href: "http://pan.baidu.com/s/1i4IPsS9",
           code: g3k3
         },{
           title: "MestReNova 9.0 win",
+		  href-in: "Software/Mestrenova/MestReNova 9.0 WIN.zip",
           href: "http://pan.baidu.com/s/1kVhhGLD",
           code: bzdx
         },{
           title: "MestReNova 10.0 mac",
+		  href-in: "Software/Mestrenova/MestReNova 10.0 OSX.zip",
           href: "http://pan.baidu.com/s/1i5nr0ep",
           code: kr4g
+        },{
+          title: "MOE 2015 mac",
+		  href-in: "Software/MOE/MOE2015.zip",
         },]
 
