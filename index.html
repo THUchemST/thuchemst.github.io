@@ -4,8 +4,31 @@ description: "<Strong>Student Association of Science &amp; Technology</strong><b
 ---
 
 
-{% for post in paginator.posts %}
+
 <div class="post-preview">
+{% for post in paginator.posts %}
+    {% if post.stick == 1 %}
+     <a href="{{ post.url | prepend: site.baseurl }}">
+        <h2 class="post-title">
+            【置顶】 {{ post.title }}
+        </h2>
+        {% if post.subtitle %}
+        <h3 class="post-subtitle">
+            {{ post.subtitle }}
+        </h3>
+        {% endif %}
+        <div class="post-content-preview">
+            {{ post.content | strip_html | truncate:200 }}
+        </div>
+    </a>
+    <p class="post-meta">
+        Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}
+    </p>
+    {% endif %}
+    {% endfor %}
+    
+{% for post in paginator.posts %}
+    {% if post.stick != 1 %}
     <a href="{{ post.url | prepend: site.baseurl }}">
         <h2 class="post-title">
             {{ post.title }}
@@ -22,9 +45,11 @@ description: "<Strong>Student Association of Science &amp; Technology</strong><b
     <p class="post-meta">
         Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}
     </p>
+    {% endif %}
+    {% endfor %}
 </div>
 <hr>
-{% endfor %}
+
 
 <!-- Pager -->
 {% if paginator.total_pages > 1 %}

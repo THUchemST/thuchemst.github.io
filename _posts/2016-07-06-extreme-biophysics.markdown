@@ -4,6 +4,7 @@ title:      "极端压力下的溶剂影响"
 date:       2016-07-06 12:00:00
 author:     "SC CHEN"
 header-img: "img/post-bg-extreme-biophysics.jpg"
+stick: 0
 tags:
     - 生物物理
     - 溶剂

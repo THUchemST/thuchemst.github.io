@@ -4,6 +4,7 @@ title:      "生产纳米银的工程菌"
 date:       2016-07-07 12:00:00
 author:     "SC CHEN"
 header-img: "img/post-bg-microbes-make-nanoparticles.jpg"
+stick: 0
 tags:
     - 基因工程
     - 纳米材料
