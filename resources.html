@@ -8,12 +8,46 @@ header-img: "img/resources-bg.jpg"
 
     <div><h1 align="center" style="margin:50px"> Continiously Uploading ... </h1></div>
 
-                {% if site.software %}
                 <hr>
-                <h4>SOFTWARES<h5>压缩文件解压密码：██████（刮开即可看到）</h5></h4>
+                <h2>SOFTWARES<h5>请联系我们获得压缩文件解压密码<br></h5></h2>
                 <ul class="list-inline">
-                    {% for software in site.software %}
-                        <li>&nbsp;&nbsp;&nbsp;&nbsp;<a href="{{software.href-in}}">{{software.title}}</a>{% if software.code %}&nbsp;&nbsp;(<a  href="{{software.href}}">{{software.code}}){% endif %}</li>
-                    {% endfor %}
                 </ul>
-                {% endif %}
+                
+	<div class="post-preview">
+{% for software in site.data.softwares %}
+    <a href="../{{ software.date | date: "%Y" }}/{{ software.date | date: "%m" }}/{{ software.date | date: "%d" }}/{{ software.name }}/index.html">
+        <h2 class="post-title">
+            <br>
+            {{ software.title }}
+    </a>
+			&nbsp;&nbsp;&nbsp;
+        {% if software.win ==1 %}
+            <img src="../img/win.png" height="25px">
+            &nbsp;
+        {% endif %}
+
+        {% if software.lnx == 1 %}
+            <img src="../img/lnx.png" height="25px">
+            &nbsp;
+        {% endif %}
+        
+        {% if software.mac == 1 %}
+            <img src="../img/mac.png" height="25px">
+            &nbsp;
+        {% endif %}
+        
+        {% if software.source == 1 %}
+            <img src="../img/sourcecode.png" height="25px">
+            &nbsp;
+        {% endif %}
+        
+        </h2>
+        
+    <p class="post-meta">
+        Posted on {{ software.date | date: "%B %d, %Y" }}
+    </p> 
+{% endfor %}
+</div>
+<hr>
+
+

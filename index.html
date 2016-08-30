@@ -4,9 +4,22 @@ description: "<Strong>Student Association of Science &amp; Technology</strong><b
 ---
 
 
+<!--add from sci-lib start-->
+<div>
+	<form class="form-wrapper cf" action="http://scholar.scilib.org/" target="_blank">
+        <input type="text" placeholder="Reference Resolver" required name="q">
+        <button type="submit">Search</button>
+	</form> 
+   <p id="BlankLine" align="center" style="font-size:11px; color:#666666; margin-top:-10px; margin-right:70px">Provided by <a href="http://www.scilib.org"> scilib.org </a></p>
+</div>
+   
+   <div>
+   	<br>
+   </div>
 
 <div class="post-preview">
 {% for post in paginator.posts %}
+	{% if post.hide != 1 %}
     {% if post.stick == 1 %}
      <a href="{{ post.url | prepend: site.baseurl }}">
         <h2 class="post-title">
@@ -25,9 +38,12 @@ description: "<Strong>Student Association of Science &amp; Technology</strong><b
         Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}
     </p>
     {% endif %}
-    {% endfor %}
+    {% endif %}
+{% endfor %}
+    
     
 {% for post in paginator.posts %}
+	{% if post.hide != 1 %}
     {% if post.stick != 1 %}
     <a href="{{ post.url | prepend: site.baseurl }}">
         <h2 class="post-title">
@@ -43,10 +59,15 @@ description: "<Strong>Student Association of Science &amp; Technology</strong><b
         </div>
     </a>
     <p class="post-meta">
+    	{% if post.software != 1 %}
         Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}
+        {% else %}
+        Posted on {{ post.date | date: "%B %-d, %Y" }}
+        {% endif %}
     </p>
     {% endif %}
-    {% endfor %}
+    {% endif %}  
+{% endfor %}
 </div>
 <hr>
 
