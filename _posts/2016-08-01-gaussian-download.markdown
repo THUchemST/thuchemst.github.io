@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "Gaussian 09 下载"
-date:       2016-08-30 12:00:00
+date:       2016-08-01 12:00:00
 author:     
 header-img: "img/post-bg-gaussian-download.jpg"
 tags:
@@ -38,15 +38,15 @@ GaussView是专门针对Gaussian软件开发的可视化图形设置界面。通
 
 #### Windows
 
-[G09W](/resources/software/gaussian/g09w.zip) (32-bit)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[GVW5](/resources/software/gaussian/gv5w.zip)
+[G09W](/resources/software/gaussian/G09W-D01-32bit.zip) (32-bit)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[GVW5](/resources/software/gaussian/GV_5.09_Win.zip)
 
 #### Unix/Linux
 
-[G09](/resources/software/gaussian/g09w.zip)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[GV5 UNIX](/resources/software/gaussian/g09w.zip)
+[G09](/resources/software/gaussian/G09L-D01.zip) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[GV5 UNIX](/resources/software/gaussian/GV_5.09_Lnx.zip)
 
 #### macOS X
 
-[G09IM & GVIM5](/resources/software/gaussian/g09w.zip)
+[G09IM & GVIM5](/resources/software/gaussian/G09IM-D01.zip)
 
 <br><br><br>
 

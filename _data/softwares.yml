@@ -4,5 +4,14 @@
   mac: 1 	
   source: 0
   name: gaussian-download
-  date: 2016-08-30 12:00:00
+  date: 2016-08-01 12:00:00
+
+- title: "ChemOffice 15"
+  win: 1
+  lnx: 0 
+  mac: 1 	
+  source: 0
+  name: chemoffice-download
+  date: 2016-08-02 12:00:00
+
 
