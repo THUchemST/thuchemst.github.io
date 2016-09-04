@@ -15,7 +15,7 @@ abstract: "Chemdraw是全世界的化学家都会使用的一款绘制分子结�
 ---
 
 
-Chemdraw是全世界的化学家都会使用的一款绘制分子结构的软件。这项软件的发明曾挽救了Dave和Sally Evans的婚姻。最近在德国应用化学杂志（Angewandte Chemie）上发表了一篇由哈佛大学的化学教授David A. Evans讲述的关于Chemdraw的故事。s(DOI:10.1002/anie.201405820)
+Chemdraw是全世界的化学家都会使用的一款绘制分子结构的软件。这项软件的发明曾挽救了Dave和Sally Evans的婚姻。最近在德国应用化学杂志（Angewandte Chemie）上发表了一篇由哈佛大学的化学教授David A. Evans讲述的关于Chemdraw的故事。(DOI:10.1002/anie.201405820)
 
 ![ruler](/img/in-post/2016-09-04-chemoffice-download/ruler.jpeg)
 
