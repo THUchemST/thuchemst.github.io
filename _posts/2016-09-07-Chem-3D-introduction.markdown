@@ -3,7 +3,7 @@ layout:     post
 title:      "Chem 3D新手入门教程"
 date:       2016-09-07 12:00:00
 author:     "ZH DENG"
-header-img: "img/title.jpg"
+header-img: "img/post-bg-chem-3d-introduction.jpg"
 stick: 0
 tags:
 
