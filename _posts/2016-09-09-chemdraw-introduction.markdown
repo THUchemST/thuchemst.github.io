@@ -64,7 +64,7 @@ SciFinder工具(SciFinder Tool)可以将绘制好的分子直接放到SciFinder�
 ![cdz](/img/in-post/2016-09-09-chemdraw-introduction/11.png)
 4.用同样的方法画出另一个茂环并为其添加中心；
 ![cdz](/img/in-post/2016-09-09-chemdraw-introduction/12.png)
-5.按住shift键，分别单击从Fe引出的单键的末端和茂环的中心，然后使用Join功能（ctrl+J），连接选定的两个位点，交叉式二茂铁分子就完成了。
+5.按住Shift键，分别单击从Fe引出的单键的末端和茂环的中心，然后使用Join功能（Ctrl+J），连接选定的两个位点，交叉式二茂铁分子就完成了。
 ![cdz](/img/in-post/2016-09-09-chemdraw-introduction/13.png)
 
 

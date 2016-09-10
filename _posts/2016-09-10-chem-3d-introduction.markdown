@@ -1,21 +1,21 @@
 ---
 layout:     post
-title:      "Chem 3D新手入门教程"
+title:      "Chem3D新手入门教程"
 date:       2016-09-10 12:00:00
 author:     "ZH DENG"
 header-img: "img/post-bg-chem-3d-introduction.jpg"
 stick: 0
 tags:
 
-abstract: "这可能是目前最详细的中文版Chem 3D新手入门教程了。"
+abstract: "这可能是目前最详细的中文版Chem3D新手入门教程了。"
 ---
 
-## Chem 3D新手入门教程
+## Chem3D新手入门教程
 
 Chem3D是一款功能强大的桌面建模程序，我们可以利用它生成小分子和生物大分子的3D模型，并对模型执行各种计算和操作，以便研究物质的属性和相互作用。通过3D建模、可视化和计算等丰富功能，我们能够更好、更快地确定出研究重点，从而提高生产力，快速达成研究目标。
 今天，我们就为大家带来这款生产力工具的入门教程第一弹！
-首先来说说如何安装Chem 3D。点击科协的主页右上角的RESOURCES，在里面已经贴出了ChemOffice 15的下载链接。WIN和OS X版本都有。但是！遗憾的是Chem 3D只在WIN版本上存在，所以使用OS X的同学们需要安装虚拟机后才可以使用（如何安装虚拟机就不是本教程的内容啦~）。下载完毕后点开安装程序，一切默认，静静等待那一刻的到来~~
-好了不就是安装一个软件嘛。。。找到Chem 3D图标，双击后首先会看到ChemOffice梦幻的启动画面（Chem 3D是少女粉嘿嘿嘿），然后主程序就出现在了我们的面前。接下来请认真听讲哦！
+首先来说说如何安装Chem3D。点击科协的主页右上角的RESOURCES，在里面已经贴出了ChemOffice 15的下载链接。WIN和OS X版本都有。但是！遗憾的是Chem3D只在Windows版本上存在，所以使用macOS的同学们需要安装虚拟机后才可以使用（如何安装虚拟机就不是本教程的内容啦~）。下载完毕后点开安装程序，一切默认，静静等待那一刻的到来~~
+好了不就是安装一个软件嘛。。。找到Chem3D图标，双击后首先会看到ChemOffice梦幻的启动画面（Chem3D是少女粉嘿嘿嘿），然后主程序就出现在了我们的面前。接下来请认真听讲哦！
 
 ## 界面图标简介
 
@@ -35,7 +35,7 @@ Chem3D是一款功能强大的桌面建模程序，我们可以利用它生成�
 
 #### ChemDraw Panel
 
-如果要在Chem 3D中绘制模型，会不可避免地使用ChemDraw Panel。这个界面就像是精简版的ChemDraw。在默认设置下，ChemDraw Panel在主界面的右侧。点击右上角的小图钉就可以设置窗口浮动或固定，Chem3D的其他内置窗口都可以这样设置。如果很不幸，你的ChemDraw Panel消失不见了，请到View>ChemDraw Panel 去寻找它~
+如果要在Chem3D中绘制模型，会不可避免地使用ChemDraw Panel。这个界面就像是精简版的ChemDraw。在默认设置下，ChemDraw Panel在主界面的右侧。点击右上角的小图钉就可以设置窗口浮动或固定，Chem3D的其他内置窗口都可以这样设置。如果很不幸，你的ChemDraw Panel消失不见了，请到View>ChemDraw Panel 去寻找它~
 ![dgs](/img/in-post/2016-09-10-chem-3d-introduction/4.jpg)
 ChemDraw Panel和Model Window拥有两种连接模式——LiveLink 和Insertion 模式。在这里我们就只为大家介绍常用的LiveLink模式。顾名思义，在LiveLink模式下，我们在ChemDraw Panel中绘制的每一根键，每一个原子，都会在Model Window中显示出来，反之亦然。LiveLink模式下有四个按钮，从左到右依次是Link Mode（用于切换模式），Clear（清除），Add or Replace Contents in ChemDraw Panel（顾名思义即可），Chemical names/SMILES （通过在后面的输入框内键入化学名称或SMILES string来创建模型 ）。
 ![dgs](/img/in-post/2016-09-10-chem-3d-introduction/5.jpg)
