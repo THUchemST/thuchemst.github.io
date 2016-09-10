@@ -4,7 +4,8 @@ title:      "ChemDraw的历史竟是这样"
 date:       2016-09-04 12:00:00
 author:     东方不亮西方亮
 header-img: "img/post-bg-chemoffice-download.jpg"
-tags:
+tags: 
+    - 软件教程
 
 stick: 0
 hide: 0

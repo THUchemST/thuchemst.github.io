@@ -7,9 +7,10 @@ header-img: "img/post-bg-chemdraw-introduction.jpg"
 
 stick: 0
 
-tags:
+tags: 
+    - 软件教程
 
-abstract: "ChemDraw作为使用最为广泛的化学结构绘制工具，为科学家提供了套完整易用的绘图解决方案，成为化学和生物学家的必备使用工具。本篇教你如何优雅的使用ChemDraw画出海葵毒素"
+abstract: "ChemDraw作为使用最为广泛的化学结构绘制工具，为科学家提供了套完整易用的绘图解决方案，成为化学和生物学家的必备使用工具。本篇教你如何优雅的使用ChemDraw画出海葵毒素。"
 
 ---
 

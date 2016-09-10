@@ -5,7 +5,8 @@ date:       2016-09-10 12:00:00
 author:     "ZH DENG"
 header-img: "img/post-bg-chem-3d-introduction.jpg"
 stick: 0
-tags:
+tags: 
+    - 软件教程
 
 abstract: "这可能是目前最详细的中文版Chem3D新手入门教程了。"
 ---
