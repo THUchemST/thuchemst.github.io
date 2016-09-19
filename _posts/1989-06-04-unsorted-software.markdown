@@ -1,8 +1,7 @@
 ---
 layout: post
 title: "未整理软件"
-date:  1926-08-17 12:00:00
-author: "SC CHEN"
+date:  1989-06-04 12:00:00
 header-img: "img/post-bg-unsorted-software.jpg"
 
 stick: 0
@@ -14,7 +13,8 @@ hide: 1
 
 ## MestReNova
 
-[Windows](http://{{ site.IP }}/resources/software/MestReNova/MestReNova-9.0-Win.zip) &nbsp;&nbsp; [Mac OS X](http://{{ site.IP }}/resources/software/MestReNova/MestReNova-10.0-Mac.zip)
+[Windows](http://{{ site.IP }}/resources/software/MestReNova/MestReNova-9.0-Win.zip) &nbsp;&nbsp; 
+[Mac OS X](http://{{ site.IP }}/resources/software/MestReNova/MestReNova-10.0-Mac.zip)
 
 ## Materials Studio
 
@@ -35,9 +35,9 @@ hide: 1
 #### Avogadro
 
 [Windows](http://{{ site.IP }}/resources/software/Computational-Freeware/Avogadro/Avogadro-1.2.0-win32.exe)
-
+&nbsp;&nbsp;
 [Mac OS X](http://{{ site.IP }}/resources/software/Computational-Freeware/Avogadro/Avogadro-1.2.0.dmg)
-
+&nbsp;&nbsp;
 [Source Code](http://{{ site.IP }}/resources/software/Computational-Freeware/Avogadro/Avogadro-1.2.0.tar)
 
 #### MOPAC

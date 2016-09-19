@@ -46,12 +46,12 @@ abstract: "欢迎所有兴趣化学、热爱化学、钟情化学的大一新�
 
 ![Location1](/img/in-post/2016-09-18-freshman-competition/location1.png)
 
-> 紫荆4号楼五单元楼梯口海报栏处 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+> 紫荆4号楼五单元楼梯口海报栏处 <br>
 > 紫荆7号楼一单元门口及六楼海报栏处
 
 ![Location2](/img/in-post/2016-09-18-freshman-competition/location2.png)
 
-> 第三教学楼一段二楼海报栏处 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+> 第三教学楼一段二楼海报栏处 <br>
 > 第六教学楼B区二楼海报栏处
 
 ## 答题纸回收
