@@ -38,15 +38,16 @@ GaussView是专门针对Gaussian软件开发的可视化图形设置界面。通
 
 #### Windows
 
-[G09W](/resources/software/gaussian/G09W-D01-32bit.zip) (32-bit)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[GVW5](/resources/software/gaussian/GV_5.09_Win.zip)
+
+[G09W](http://{{ site.IP }}/resources/software/Gaussian/G09W-D01-32bit.zip) (32-bit)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[GVW5](http://{{ site.IP }}/resources/software/Gaussian/GV-5.09-Win.zip)
 
 #### Unix/Linux
 
-[G09](/resources/software/gaussian/G09L-D01.zip) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[GV5 UNIX](/resources/software/gaussian/GV_5.09_Lnx.zip)
+[G09](http://{{ site.IP }}/resources/software/Gaussian/G09L-D01.zip) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[GV5 UNIX](http://{{ site.IP }}/resources/software/Gaussian/GV-5.09-Lnx.zip)
 
-#### macOS X
+#### Mac OS X
 
-[G09IM & GVIM5](/resources/software/gaussian/G09IM-D01.zip)
+[G09IM & GVIM5](http://{{ site.IP }}/resources/software/Gaussian/G09IM-D01.zip)
 
 <br><br><br>
 
