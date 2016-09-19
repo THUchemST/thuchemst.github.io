@@ -44,7 +44,15 @@ abstract: "欢迎所有兴趣化学、热爱化学、钟情化学的大一新�
 
 为了节约资源，我们也鼓励从网站上直接下载[试卷](../../../../freshman/attach/2016.pdf)和[答题纸](../../../../freshman/attach/2016_新生化学大赛答题纸.docx)作答，将电子稿答卷通过[邮箱](mailto:thuchemst@163.com)提交。
 
+![Location1](/img/in-post/2016-09-18-freshman-competition/location1.png)
 
+> 紫荆4号楼五单元楼梯口海报栏处 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+> 紫荆7号楼一单元门口及六楼海报栏处
+
+![Location2](/img/in-post/2016-09-18-freshman-competition/location2.png)
+
+> 第三教学楼一段二楼海报栏处 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+> 第六教学楼B区二楼海报栏处
 
 ## 答题纸回收
 
