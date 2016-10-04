@@ -35,7 +35,6 @@ Gaussian软件是目前化学领域最流行、应用范围最广的量子化学
 <video id="video" controls="" preload="none" poster="/img/in-post/2016-09-22-gaussian-introduction/gv.png" width="100%" heigh="100%" src="/img/in-post/2016-09-22-gaussian-introduction/gv.mp4" type="video/mp4">
 </video>
 
-
 我们发现，这样画出的分子在一些地方有些别扭，只需要单击Edit → Clean进行简单处理就完成了。
 
 优化处理完成的效果：
@@ -43,17 +42,18 @@ Gaussian软件是目前化学领域最流行、应用范围最广的量子化学
 
 使用Clean这种方法可以迅速的将所画的结构变得“赏心悦目”，但是这是相当经验的手段，得到的结构需要利用计算的手段做进一步优化。
 
-<p id=“ts-opt-freq-calc”>
+<hr />
+
+<p id="energy-calc-geometry-opt">
 </p>
 
 后面的教程将建立在<I>Exploring Chemistry with Electronic Structure Methods</I>这本书的第三版案例之上，该书由Gaussian公司出版，官网为[expchem3.com](http://expchem3.com)。最基础的理论背景已经在其官网上有所介绍，我们也会在日后进行整理与翻译的工作。
-
 
 ## 能量计算与结构优化
 
 在我们完成分子的绘制之后，我们就需要对其进行能量的定量计算与几何结构优化。
 
-首先，我们先了解一下计算的方法。我们最终的目的都是希望通过各种近似去找到Schödinger方程的解，而不同的近似方法就对应了不同的精度，这些理论方法也称为<strike>姿势</strike>理论水平（Levels of Theory）；一般来说，越高级的方法，对应着越高的精度，同时也会利用越大的计算资源。
+首先，我们先了解一下计算的方法。我们最终的目的都是希望通过各种近似去找到Schödinger方程的解，而不同的近似方法就对应了不同的精度，这些理论方法也称为<del>姿势</del>理论水平（Levels of Theory）；一般来说，越高级的方法，对应着越高的精度，同时也会利用越大的计算资源。
 
 Gaussian针对于不同大小的体系，可以选用不同的方法，如使用牛顿力学的分子力学方法（<b>MM2、UFF</b>）、半经验方法（<b>PM6、AM1</b>）、Hartree-Fock理论（<b>HF</b>）、Møller-Plesset微扰理论（<b>MP2、MP4</b>）、耦合簇理论（<b>CCSD(T)</b>）、密度泛函理论DFT（<b>B3LYP、APFD、M06、CAM-B3LYP</b>）等等。当然，每一种方法都有使用范围和局限性。在教程中，主要涉及到有机化合物的优化，密度泛函理论中的B3LYP方法使我们解决此类问题的一般性选择。
 
@@ -78,11 +78,12 @@ Method中选择DFT、B3LYP、6-31g(d,p),设置好正确的电荷（Charge）和�
 ![Gaussian](/img/in-post/2016-09-22-gaussian-introduction/9.png)
 在任务标题（Title）选项卡中输入计算的任务的名称，然后就可以点击Submit，保存输入文件并运行Gaussian了。
 
-用GaussView打开输出的结果，使用Inquire查看优化后的键长、键角和二面角。
+用GaussView打开输出的结果，使用Inquire工具查看优化后的键长、键角和二面角。
 
-<p id=“ts-opt-freq-calc”>
-</p>
+<hr />
 
-## 过渡态优化与频率计算
+<a name="ts-opt-freq">
+</a>
+
 
 
