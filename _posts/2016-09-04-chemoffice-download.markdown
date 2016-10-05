@@ -9,7 +9,11 @@ tags:
 
 stick: 0
 hide: 0
-software: 0
+resource: 1
+resource-name: ChemOffice 15
+platform: 
+    - win
+    - mac
 
 abstract: "Chemdraw是全世界的化学家都会使用的一款绘制分子结构的软件。这项软件的发明曾挽救了Dave和Sally Evans的婚姻。本文将带领大家一起欣赏ChemDraw的生动的发展历史……"
 
@@ -70,7 +74,9 @@ McManus说，“Stewart Rubenstein很善于接受别人的意见。这个产品�
 
 今天，ChemDraw已经是最受欢迎的化学结构绘图软件。据PerkinElmer的资讯总监介绍，软件的用户遍及全球，已逾百万，并且不再仅局限于Macs。Windows版本已于1994年公开，最新的版本ChemBioDraw15能提供SciFinder搜索功能，可在iPad上使用的移动版本也已问世了。
 
-<br>
+
+<p id="download">
+</p>
 
 ## 下载地址
 

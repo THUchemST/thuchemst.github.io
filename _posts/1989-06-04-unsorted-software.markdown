@@ -6,6 +6,13 @@ header-img: "img/post-bg-unsorted-software.jpg"
 
 stick: 0
 hide: 1
+resource: 1
+
+platform: 
+    - win
+    - mac 
+    - lnx
+    - source
 
 ---
 

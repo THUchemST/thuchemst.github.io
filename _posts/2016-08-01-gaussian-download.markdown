@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "Gaussian 09 下载"
+title:      "Gaussian 09 简介"
 date:       2016-08-01 12:00:00
 author:     
 header-img: "img/post-bg-gaussian-download.jpg"
@@ -8,7 +8,12 @@ tags:
 
 stick: 0
 hide: 0
-software: 1
+resource: 1
+resource-name: Gaussian 09
+platform: 
+    - win
+    - mac
+    - lnx
 
 abstract: "Gaussian是一个功能强大的量子化学综合软件包。其可执行程序可在不同型号的大型计算机，超级计算机，工作站和个人计算机上运行，并相应有不同的版本。"
 
@@ -33,6 +38,9 @@ GaussView是专门针对Gaussian软件开发的可视化图形设置界面。通
 ![img](/img/in-post/2016-08-01-gaussian-download/gaussview-platforms.jpg)
 
 <br>
+
+<p id="download">
+</p>
 
 ## 下载地址
 

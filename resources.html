@@ -14,39 +14,46 @@ header-img: "img/resources-bg.jpg"
                 </ul>
                 
 	<div class="post-preview">
-{% for software in site.data.softwares %}
-    <a href="../{{ software.date | date: "%Y" }}/{{ software.date | date: "%m" }}/{{ software.date | date: "%d" }}/{{ software.name }}/index.html">
-        <h2 class="post-title">
+{% for post in site.posts %}
+{% if post.resource == 1 %}
+    <a href="{{ post.url | prepend: site.baseurl }}#download">
+        <h3 class="post-title">
             <br>
-            {{ software.title }}
+            {% if post.resource-name %}
+            {{ post.resource-name }}
+            {% else %}
+            {{ post.title }}
+            {% endif %}
     </a>
 			&nbsp;&nbsp;&nbsp;
-        {% if software.win ==1 %}
+        {% for platform in post.platform %}
+        {% if platform == "win" %}
             <img src="../img/win.png" height="25px">
             &nbsp;
         {% endif %}
 
-        {% if software.lnx == 1 %}
+        {% if platform == "lnx" %}
             <img src="../img/lnx.png" height="25px">
             &nbsp;
         {% endif %}
         
-        {% if software.mac == 1 %}
+        {% if platform == "mac" %}
             <img src="../img/mac.png" height="25px">
             &nbsp;
         {% endif %}
         
-        {% if software.source == 1 %}
+        {% if platform == "source" %}
             <img src="../img/sourcecode.png" height="25px">
             &nbsp;
         {% endif %}
+        {% endfor %}
+        </h3>
         
-        </h2>
-        
-    <p class="post-meta">
-        Posted on {{ software.date | date: "%B %d, %Y" }}
-    </p> 
+            {% endif %}
 {% endfor %}
+
+<!-- Books which we recommend will put here -->
+
 </div>
 <hr>
 
