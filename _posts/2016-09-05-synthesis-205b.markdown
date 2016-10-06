@@ -10,7 +10,7 @@ syn-name: 205B
 syn-img: img/syn-205b.jpg
 
 stick: 0
-hide: 0
+hide: 1
 
 tags: 
 
