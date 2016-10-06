@@ -1,0 +1,90 @@
+--- 
+layout: default 
+title: "SynPortal" 
+description: "State of the Art in Total Synthesis" 
+header-img: "img/synportal-bg.jpg" 
+hide: 1
+---
+
+<!-- Page Header -->
+<header class="intro-header" style="background-image: url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}')">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 ">
+                <div class="site-heading">
+                    <h1>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</h1>
+                    <!--<hr class="small">-->
+                    <span class="subheading">{{ page.description }}</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<head>
+        <style type="text/css">
+	img {
+    	max-width: 100%;
+	}
+	.mt10 {
+    	margin-top: 10px;
+	}
+	.post-meta {
+    	color: $grey-color;
+	}
+	.panel {
+    	box-shadow: 0px 0px 1px $grey-color;
+	}
+	.panel:hover {
+    	box-shadow: 0px 0px 6px $grey-color;
+	}
+        </style>
+        	
+		<script type="text/javascript">
+        	$(function(){
+        	});
+        </script>
+        
+        </head>
+
+    <div class="container">
+    <div class="wrapper">
+    <div class="row">
+        
+	{% for post in site.posts %}
+		{% if post.synthesis == 1 %}
+<div class="col-md-3">
+		<div class="panel panel-default">
+			<div class="panel-body">
+				<h3 class="panel-title pull-left">
+                	<a href="{{ post.url | prepend: site.baseurl }}">{{ post.syn-name }}</a>
+                </h3>
+				<span class="post-meta pull-right">
+                	<small>{{ post.date | date: "%b %-d, %Y" }}</small>
+                </span>
+			</div>
+				{% if post.syn-img %} 
+                	<img width="100%" src="../{{ post.syn-img }}" alt="{{post.syn-name}}">
+				{% endif %}
+
+			<div class="panel-body">
+				<small>
+                	{% if post.abstract %} 
+                    	{{ post.abstract }} 
+                	{% else %} 
+                    	{{ post.content | strip_html | truncate:160 }} 
+                	{% endif %}
+                    <br>
+                </small>
+                
+            	<a href="{{ post.url | prepend: site.baseurl }}" class="btn-primary btn-sm pull-right mt10">Read</a>
+                
+			</div>
+		</div>
+	</div>
+		{% endif %} 
+    {% endfor %}
+    
+	</div>
+	</div>
+	</div>

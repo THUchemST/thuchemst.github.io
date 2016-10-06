@@ -21,7 +21,9 @@
                     </li>
                     {% for page in site.pages %}{% if page.title %}
                     <li>
+                    	{% if page.hide != 1 %}
                         <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+                        {% endif %}
                     </li>
                     {% endif %}{% endfor %}
                 </ul>
