@@ -40,6 +40,7 @@ description: "<Strong>Student Association of Science &amp; Technology</strong><b
     </a>
     <p class="post-meta">
         Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}
+    <hr>
     </p>
     	{% endif %}
     {% endif %}
@@ -72,12 +73,13 @@ description: "<Strong>Student Association of Science &amp; Technology</strong><b
         {% else %}
         Posted on {{ post.date | date: "%B %-d, %Y" }}
         {% endif %}
+        <hr>
     </p>
     {% endif %}
     {% endif %}  
 {% endfor %}
 </div>
-<hr>
+
 
 
 <!-- Pager -->

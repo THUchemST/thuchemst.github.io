@@ -13,7 +13,6 @@ hide: 1
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 ">
                 <div class="site-heading">
                     <h1>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</h1>
-                    <!--<hr class="small">-->
                     <span class="subheading">{{ page.description }}</span>
                 </div>
             </div>
@@ -59,9 +58,11 @@ hide: 1
 				<h3 class="panel-title pull-left">
                 	<a href="{{ post.url | prepend: site.baseurl }}">{{ post.syn-name }}</a>
                 </h3>
+                
 				<span class="post-meta pull-right">
                 	<small>{{ post.date | date: "%b %-d, %Y" }}</small>
                 </span>
+                
 			</div>
 				{% if post.syn-img %} 
                 	<img width="100%" src="../{{ post.syn-img }}" alt="{{post.syn-name}}">

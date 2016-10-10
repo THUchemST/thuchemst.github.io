@@ -7,7 +7,7 @@ header-img: "img/post-bg-synthesis-205b.jpg"
 
 synthesis: 1
 syn-name: 205B
-syn-img: img/syn-205b.jpg
+syn-img: img/syn-205b.png
 
 stick: 0
 hide: 1
