@@ -8,6 +8,9 @@ header-img: "img/post-bg-pen-tools-in-chemdraw.jpg"
 stick: 0
 hide: 0
 
+tags: 
+    - 软件教程
+
 abstract: "钢笔工具的正确用法，打开ChemDraw隐藏世界的大门。"
 
 ---
