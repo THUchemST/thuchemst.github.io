@@ -68,11 +68,7 @@ description: "<Strong>Student Association of Science &amp; Technology</strong><b
         </div>
     </a>
     <p class="post-meta">
-    	{% if post.resource != 1 %}
         Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}
-        {% else %}
-        Posted on {{ post.date | date: "%B %-d, %Y" }}
-        {% endif %}
         <hr>
     </p>
     {% endif %}
