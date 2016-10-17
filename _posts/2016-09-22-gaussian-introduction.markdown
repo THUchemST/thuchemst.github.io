@@ -80,7 +80,7 @@ Gaussian针对于不同大小的体系，可以选用不同的方法，如使用
 
 随之弹出设置计算参数的窗口。在任务类型（Job Type）中选择Optimization；
 ![Gaussian](/img/in-post/2016-09-22-gaussian-introduction/8.png)
-Method中选择DFT、B3LYP、6-31g(d,p),设置好正确的电荷（Charge）和自选多重度（Spin）；
+Method中选择DFT、B3LYP、6-31g(d,p),设置好正确的电荷（Charge）和自旋多重度（Spin）；
 ![Gaussian](/img/in-post/2016-09-22-gaussian-introduction/9.png)
 在任务标题（Title）选项卡中输入计算的任务的名称，然后就可以点击Submit，保存输入文件并运行Gaussian了。
 
