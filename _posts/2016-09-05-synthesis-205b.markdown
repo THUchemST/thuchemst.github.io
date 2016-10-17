@@ -1,13 +1,16 @@
 ---
-layout: post
+layout: keynote
 title: "Synthesis of 205B"
 date:  2016-09-05 12:00:00
 author: "SC CHEN"
-header-img: "img/post-bg-synthesis-205b.jpg"
+iframe: "/img/in-post/2016-09-05-synthesis-205b/205B-route.svg"
 
 synthesis: 1
 syn-name: 205B
 syn-img: img/syn-205b.png
+
+navcolor:   "invert"
+bg-color: "white"
 
 stick: 0
 hide: 1

@@ -6,7 +6,6 @@ layout: default
 <!-- Post Header -->
 <style type="text/css">
     header.intro-header{
-		
         height: 500px;
         overflow: hidden;
     }
@@ -15,9 +14,22 @@ layout: default
         height: 100%;
         border: 0;
     }
+	
+	{% if page.navcolor == "invert" %}
+        .navbar-custom .nav li a,
+        .navbar-custom .nav li a:hover,
+        .navbar-custom .navbar-brand,
+        .navbar-custom .navbar-brand:hover {color:#777;}
+        .navbar-default .navbar-toggle .icon-bar {background-color:#777;}
+    {% endif %}
+	
 </style>
 <header class="intro-header" >
-    <iframe src="{{page.iframe}}"/>
+	{% if page.bg-color %}
+    <iframe style="background-color:{{page.bg-color}}" src="{{page.iframe}}"/>
+	{% else %}
+    <iframe style="background-color:#FFFFFF" src="{{page.iframe}}"/>
+	{% endif %}
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">

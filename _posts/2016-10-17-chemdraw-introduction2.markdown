@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "如何使用ChemDraw绘制反应机理图"
+title:  "ChemDraw绘制反应机理"
 date:   2016-10-17 00:00:00
 author: "DZ CHU"
 header-img: "img/post-bg-chemdraw-introduction2.jpg"
