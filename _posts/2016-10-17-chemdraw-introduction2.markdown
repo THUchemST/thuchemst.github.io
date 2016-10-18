@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title:  "ChemDraw绘制反应机理"
 date:   2016-10-17 00:00:00
