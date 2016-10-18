@@ -17,13 +17,13 @@ hide: 0
 
 tags: 
 
-abstract: "从蛙类<I>Dendrobates pumilio</I>皮肤中提取的天然产物(−)-205B，自1998年结构得到确认之后，其氮杂三环的骨架受到化学家广泛的关注。2003年Toyooka完成首次全合成以来，Smith III、Comins、Micalizio和Cha也相继报道了新颖而简洁的合成路线。"
+abstract: "从蛙类<I>Dendrobates pumilio</I>皮肤中提取的天然产物(−)-205B，自1998年结构得到确认之后，其氮杂三环的骨架受到化学家广泛的关注。2003年Toyooka完成首次全合成以来，Smith、Comins、Micalizio和Cha也相继报道了新颖而简洁的合成路线。"
 
 ---
 
 从蛙类<I>Dendrobates pumilio</I>皮肤中提取的天然产物(−)-205B，自1998年结构得到确认之后，其氮杂三环的骨架受到化学家广泛的关注。2003年Toyooka完成首次全合成以来，Smith、Comins、Micalizio和Cha也相继报道了新颖而简洁的合成路线。
 
-#### Toyooka组
+#### Toyooka Group (2003)
 
 2003年，Toyooka等人率先合成天然205B的对映体，并指认了天然产物的绝对构型<sup>[1]</sup>。 从已知原料<strong>1</strong>出发，经过甲基铜锂的Michael加成，随后进行还原缩合、脱保护基和一系列氧化，再次得到α,β不饱和酯<strong>2</strong>。再次使用甲基铜锂进行Michael加成，得到单一的异构体<strong>3</strong>。作者推测铜锂试剂进攻的过程中A<sup>1,3</sup>空间作用是高选择性产生的原因<sup>[2]</sup>。在从上方进攻过程中，只受到H<sub>c</sub>的位阻，而从下方进攻则会受到H<sub>a</sub>和H<sub>b</sub>两个原子的A<sup>1,3</sup>作用。将<strong>3</strong>水解之后经过一些列简单转化得到不饱和醛<strong>4</strong>。
 
@@ -40,6 +40,14 @@ abstract: "从蛙类<I>Dendrobates pumilio</I>皮肤中提取的天然产物(−
 [1]    Toyooka, N.; Fukutome, A.; Shinoda, H.; Nemoto, H. <i> Angew. Chem., Int. Ed.</i> <strong>2003</strong>, <i>42</i>, 3808.<br/>
 [2]    Hoffmann, R. W. <i>Chem. Rev.</i> <strong>1989</strong>, <i>89</i>, 1841.
 
-#### Smith组
+#### Smith Group (2005)
 
-设计一个多组分反应考验了化学家对于反应机理的理解力和创造力。2005年，宾夕法尼亚大学的A. B. Smith利用三组分的阴离子接力化学(CRC)、一锅串联环化和烯烃关环复分解(RCM)，用19步实现了(−)-205B的全合成。
+设计一个多组分反应考验了化学家对于反应机理的理解力和创造力。2005年，宾夕法尼亚大学的A. B. Smith, III利用三组分的阴离子接力化学(CRC)、一锅串联环化和烯烃关环复分解(RCM)，用19步实现了(−)-205B的全合成<sup>[3]</sup>。
+
+#### Comins Group (2011)
+
+
+#### Micalizio Group (2012)
+
+
+#### Cha Group (2015)
