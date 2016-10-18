@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title:  "ChemDraw绘制反应机理"
 date:   2016-10-17 00:00:00
@@ -36,10 +36,10 @@ Chemical Symbols工具中包含各种化学标记，如电荷、单电子、电�
 ![cdz](/img/in-post/2016-10-17-chemdraw-introduction2/4.png)
 
 第二种，自动对齐，先将第一行的分子全部选中，然后“鼠标右击 → Align → T/B center”。
-![cdz](/img/in-post/2016-10-17-chemdraw-introduction2/5.png)
+![cdz](/img/in-post/2016-10-17-chemdraw-introduction2/5.PNG)
 
 在水平线上对齐后，如果要调整分子与箭头之间的间距的话，则可以通过“右击 → Distribute → Holizontally”来实现。
-![cdz](/img/in-post/2016-10-17-chemdraw-introduction2/6.png)
+![cdz](/img/in-post/2016-10-17-chemdraw-introduction2/6.PNG)
 
 以上，一个反应机理图就绘制完成了。
 ![cdz](/img/in-post/2016-10-17-chemdraw-introduction2/7.png)
