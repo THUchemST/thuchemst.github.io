@@ -1351,3 +1351,10 @@ img::-moz-selection {
 
 
 /* End Timeline */
+
+.panel {
+    	box-shadow: 0px 0px 1px $grey-color;
+	}
+	.panel:hover {
+    	box-shadow: 0px 0px 6px $grey-color;
+	}
