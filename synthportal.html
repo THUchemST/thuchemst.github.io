@@ -36,6 +36,8 @@ header-img: "img/synthportal-bg.jpg"
 	.panel:hover {
     	box-shadow: 0px 0px 6px $grey-color;
 	}
+	
+
         </style>
         	
 		<script type="text/javascript">
@@ -48,10 +50,10 @@ header-img: "img/synthportal-bg.jpg"
     <div class="container">
     <div class="wrapper">
     <div class="row">
-        
+    
 	{% for post in site.posts %}
 		{% if post.synthesis == 1 %}
-<div class="col-md-3">
+	<div class="col-sm-6 col-md-3">
 		<div class="panel panel-default">
 			<div class="panel-body">
 				<h3 class="panel-title pull-left">

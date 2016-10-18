@@ -2,8 +2,24 @@
 layout: default
 ---
 
+
+{% if page.title %}
+{% else %}
+<style>
+	.intro-header .site-heading {
+  		padding: 95.5px 0 55px;
+	}
+@media only screen and (min-width: 768px) {
+  	.intro-header .site-heading{
+    padding: 133.5px 0;
+  }
+}
+</style>
+{% endif %}
+
 <!-- Page Header -->
 <header class="intro-header" style="background-image: url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}')">
+
                 <div class="site-heading">
                     <h1>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</h1>
                     <!--<hr class="small">-->
