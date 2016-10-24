@@ -3,8 +3,21 @@ layout: default
 ---
 
 
+
+
 {% if page.title %}
+<!-- Page Header -->
+<header class="intro-header" style="background-image: url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}')">
+
+                <div class="site-heading">
+                    <h1>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</h1>
+                    <!--<hr class="small">-->
+                    <span class="subheading">{{ page.description }}</span>
+                </div>
+</header>
+
 {% else %}
+
 <style>
 	.intro-header .site-heading {
   		padding: 95.5px 0 55px;
@@ -15,17 +28,56 @@ layout: default
   }
 }
 </style>
-{% endif %}
 
-<!-- Page Header -->
-<header class="intro-header" style="background-image: url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}')">
+<!-- Site Header Slide -->
+
+<div class="slick">
+<div class="intro-header" style="background-image: url('{{ site.baseurl }}/{{ site.header-img }}')">
 
                 <div class="site-heading">
                     <h1>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</h1>
                     <!--<hr class="small">-->
-                    <span class="subheading">{{ page.description }}</span>
+                    <span class="subheading">{{ page.description }}</span>  
                 </div>
-</header>
+</div>
+
+{% if site.slick-1 == 1 %}
+
+<div class="intro-header" style="background-image: url('{{ site.baseurl }}/{{ site.slick-img-1 }}')">
+    <div class="site-heading">
+                    <h1>{% if site.slick-title-1 %}{{ site.slick-title-1 }}{% else %}{{ site.title }}{% endif %}</h1>
+                    <!--<hr class="small">-->
+                    <span class="subheading">{{ site.slick-subtitle-1 }}<br/></span>
+                </div>
+</div>
+{% endif %}
+
+{% if site.slick-2 == 1 %}
+<div class="intro-header" style="background-image: url('{{ site.baseurl }}/{{ site.slick-img-2 }}')">
+                <div class="site-heading">
+                    <h1>{% if site.slick-title-2 %}{{ site.slick-title-2 }}{% else %}{{ site.title }}{% endif %}</h1>
+                    <!--<hr class="small">-->
+                    <span class="subheading">{{ site.slick-subtitle-2 }}<br/></span>
+                </div>
+</div>
+{% endif %}
+
+</div>
+{% endif %}
+
+
+{% if page.title %}
+{% else %}
+<!--add from sci-lib start-->
+<div>
+	<form class="form-wrapper cf" action="http://scholar.scilib.org/" target="_blank">
+        <input type="text" placeholder="Reference Resolver" required name="q">
+        <button type="submit">Search</button>
+	</form> 
+   <p id="BlankLine" align="center" style="font-size:11px; color:#666666; margin-top:-10px;">Provided by <a href="http://www.scilib.org"> scilib.org </a></p>
+</div>
+{% endif %}
+
 
 <!-- Main Content -->
 <div class="container">
@@ -64,8 +116,8 @@ layout: default
                 <hr>
                 <h5>LINK</h5>
                 <ul class="list-inline">
-                    {% for friend in site.link %}
-                        <li><a href="{{link.href}}">{{link.title}}</a></li>
+                    {% for link in site.link %}
+                  <li><a href="{{link.href}}">{{link.title}}</a></li>
                     {% endfor %}
                 </ul>
                 {% endif %}

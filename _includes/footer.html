@@ -31,4 +31,17 @@
 <!-- Custom Theme JavaScript -->
 <script src="{{ "/js/hux-blog.min.js " | prepend: site.baseurl }}"></script>
 
-
+<!-- Slick by http://kenwheeler.github.io/slick -->
+<script type="text/javascript" src="/slick/slick.min.js"></script>
+  
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $('.slick').slick({
+		dots: true,
+        infinite: true,
+		speed: 800,
+		autoplay: true,
+  		autoplaySpeed: 3000,
+      });
+    });
+  </script>
