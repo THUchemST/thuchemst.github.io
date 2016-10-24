@@ -47,7 +47,9 @@ layout: default
     <div class="site-heading">
                     <h1>{% if site.slick-title-1 %}{{ site.slick-title-1 }}{% else %}{{ site.title }}{% endif %}</h1>
                     <!--<hr class="small">-->
-                    <span class="subheading">{{ site.slick-subtitle-1 }}<br/></span>
+                    {% if site.slick-href-1 %}<a href="{{ site.slick-href-1 }}" style="color:inherit"><span class="subheading">{{ site.slick-subtitle-1 }}<br/></span></a>
+                    {% else %}<span class="subheading">{{ site.slick-subtitle-1 }}<br/></span>
+                    {% endif %}
                 </div>
 </div>
 {% endif %}
@@ -57,7 +59,9 @@ layout: default
                 <div class="site-heading">
                     <h1>{% if site.slick-title-2 %}{{ site.slick-title-2 }}{% else %}{{ site.title }}{% endif %}</h1>
                     <!--<hr class="small">-->
-                    <span class="subheading">{{ site.slick-subtitle-2 }}<br/></span>
+                    {% if site.slick-href-2 %}<a href="{{ site.slick-href-1 }}" style="color:inherit"><span class="subheading">{{ site.slick-subtitle-2 }}<br/></span></a>
+                    {% else %}<span class="subheading">{{ site.slick-subtitle-2 }}<br/></span>
+                    {% endif %}
                 </div>
 </div>
 {% endif %}
