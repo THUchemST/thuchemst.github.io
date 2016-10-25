@@ -5,7 +5,7 @@ date:  2016-09-18 12:00:00
 author: "THUchemST"
 header-img: "img/post-bg-freshman-competition.jpg"
 
-stick: 1
+stick: 0
 hide: 0
 
 abstract: "欢迎所有兴趣化学、热爱化学、钟情化学的大一新生参与到这次活动中来！<br>在这里，你们能学习化学、享受化学，与化学结缘。<br>祝化学的理想常在！"
