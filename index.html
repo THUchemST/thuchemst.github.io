@@ -12,7 +12,7 @@ description: "<Strong>Student Association of Science &amp; Technology</strong><b
     	{% if post.stick == 1 %}
      <a href="{{ post.url | prepend: site.baseurl }}">
         <h2 class="post-title">
-            【置顶】 {{ post.title }}
+            置顶 —— {{ post.title }}
         </h2>
         {% if post.subtitle %}
         <h3 class="post-subtitle">
@@ -20,6 +20,7 @@ description: "<Strong>Student Association of Science &amp; Technology</strong><b
         </h3>
         {% endif %}
         <div class="post-content-preview">
+        	<br/>
         	{% if post.abstract %}
             {{ post.abstract }}
             {% else %}
@@ -27,8 +28,8 @@ description: "<Strong>Student Association of Science &amp; Technology</strong><b
             {% endif %}
         </div>
     </a>
-    <p class="post-meta">
-        Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}
+    <p class="post-meta" style="font-size:inherit">
+        <br/>Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}
     <hr>
     </p>
     	{% endif %}
@@ -49,6 +50,7 @@ description: "<Strong>Student Association of Science &amp; Technology</strong><b
         </h3>
         {% endif %}
         <div class="post-content-preview">
+            <br/>
             {% if post.abstract %}
             {{ post.abstract }}
             {% else %}
@@ -56,8 +58,8 @@ description: "<Strong>Student Association of Science &amp; Technology</strong><b
             {% endif %}
         </div>
     </a>
-    <p class="post-meta">
-        Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}
+    <p class="post-meta" style="font-size:inherit">
+        <br/>Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}
         <hr>
     </p>
     {% endif %}
