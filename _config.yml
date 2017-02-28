@@ -102,7 +102,7 @@ link: [
 IP: 59.66.172.76
 
 # Whether Use Multi-Header on Homepage
-slick-1: 1
+slick-1: 0
 slick-img-1: img/home-freshman.jpg
 slick-title-1: 挑战杯、星火计划开始报名
 slick-subtitle-1: <strong>成就科创梦想<br/></strong><sub>查看详情</sub>
