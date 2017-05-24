@@ -20,7 +20,7 @@ platform:
 
 ## MestReNova
 
-[Windows](http://{{ site.IP }}/resources/software/MestReNova/MestReNova-9.0-Win.zip) &nbsp;&nbsp; 
+[Windows]({{ site.IP }}?subject=Require MestreNova Windows) &nbsp;&nbsp; 
 [Mac OS X](http://{{ site.IP }}/resources/software/MestReNova/MestReNova-10.0-Mac.zip)
 
 ## Materials Studio
