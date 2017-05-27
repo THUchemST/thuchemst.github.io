@@ -2,11 +2,11 @@
 layout:     post
 title:      "Origin 教程及下载链接"
 date:       2017-05-22 12:00:00
-author:     "SC CHEN"
-header-img: "img/post-bg-extreme-biophysics.jpg"
+author:     "YLZ"
 stick: 0
 tags:
     - 软件教程
+    - Origin
 
 resource: 1
 platform: 
@@ -18,7 +18,8 @@ abstract: "Origin软件下载及入门教程"
 
 
 
-[Origin 2015下载]({{ site.IP }}?subject=Require Origin 2015&body=Name= %20%20%20%20%20%20%20;%0D%0AID= %20%20%20%20%20%20%20%20;) &nbsp;&nbsp; 
+### 下载地址
+[Origin 2015]({{ site.IP }}?subject=Require Origin 2015&body=Name= %20%20%20%20%20%20%20;%0D%0AID= %20%20%20%20%20%20%20%20;{{ site.AA }}) &nbsp;&nbsp; 
 
 >写在正文之前：本文仅供Origin入门级使用者参考。正文使用通俗易懂的语言，并以图例介绍每一步操作。全文只涉及最为简单基础的使用方法。鉴于作者同样处于软件使用摸索阶段，若有使用不当之处望海涵，也欢迎批评与指正。
 p.s. 由叶卫平老师编著的《Origin 9.1 科技绘图及数据分析》详细介绍了Origin的使用方法，该书在清华图书馆即可借取。
