@@ -9,7 +9,7 @@ tags:
 stick: 0
 hide: 0
 resource: 1
-resource-name: Gaussian 09
+resource-name: Gaussian
 platform: 
     - win
     - mac

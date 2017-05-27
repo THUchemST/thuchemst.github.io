@@ -10,7 +10,7 @@ tags:
 stick: 0
 hide: 0
 resource: 1
-resource-name: ChemOffice 15
+resource-name: ChemOffice
 platform: 
     - win
     - mac
