@@ -1,8 +1,8 @@
 ---
 layout:     post
-title:      "Origin 教程及下载链接"
+title:      "Origin基础教程"
 date:       2017-05-22 12:00:00
-author:     "YLZ"
+author:     "LZ Ye"
 stick: 0
 tags:
     - 软件教程
@@ -11,15 +11,11 @@ tags:
 resource: 1
 platform: 
     - win
+resource-name: Origin
 
-
-abstract: "Origin软件下载及入门教程"
 ---
 
 
-
-### 下载地址
-[Origin 2015]({{ site.IP }}?subject=Require Origin 2015&body=Name= %20%20%20%20%20%20%20;%0D%0AID= %20%20%20%20%20%20%20%20;{{ site.AA }}) &nbsp;&nbsp; 
 
 >写在正文之前：本文仅供Origin入门级使用者参考。正文使用通俗易懂的语言，并以图例介绍每一步操作。全文只涉及最为简单基础的使用方法。鉴于作者同样处于软件使用摸索阶段，若有使用不当之处望海涵，也欢迎批评与指正。
 p.s. 由叶卫平老师编著的《Origin 9.1 科技绘图及数据分析》详细介绍了Origin的使用方法，该书在清华图书馆即可借取。
@@ -73,6 +69,7 @@ PE的上半部分显示该工程文件下的子文件夹，下半部分显示选
 1. 复制Excel中的一列数据（竖直），直接粘贴到Book2中的A列，作为X轴数据
 2. 复制Excel中的另一列数据，直接粘贴到B列，作为Y轴数据，此时Book2中的每一行XY数据一一对应。
 ![origin](/img/in-post/2017-05-22-origin/Comb4.png)
+
 ### 步骤六：绘制二维点线图（XY坐标图）。
 1.	选中A、B两列（按住A列表头拖至B列，选中后变黑） → 点击上方菜单栏Plot → 选择绘制点线图类型（Line只有线，Symbol只有点，Line+Symbol点线结合）。此处我们选择较为常用的点线结合Line+Symbol。
 注：此处有多种途径生成Graph，1）上述方法；2）右键单击选中列（AB）的表头，选择plot；3）下方（可能处于其他位置，也可能未显示）的二维绘图快捷键
@@ -113,10 +110,12 @@ PE的上半部分显示该工程文件下的子文件夹，下半部分显示选
 <div id='Step8'></div>
 ### 步骤八：导出点线图
 <i>太长不看版：用其他软件截图保存</i>
+
 点击菜单栏File → Export Graphs → Open Dialog → 更改导出文件类型、导出文件名、导出文件路径 → 点击OK
 ![origin](/img/in-post/2017-05-22-origin/22.png)
 
 ### 步骤九：同一张图中绘制多条数据线
+
 1.	在workbook中添加输入数据栏<br />
 双击Project Explorer下半部中的Book2（数据输入表），回到Book2操作界面 → 点击菜单栏中的Column → Add New Column → 输入欲添加的列数 → 点击OK
 ![origin](/img/in-post/2017-05-22-origin/23.png)
@@ -157,3 +156,6 @@ PE的上半部分显示该工程文件下的子文件夹，下半部分显示选
 ### 附录2：Mask（掩蔽）数据图中的某些数据点，拟合时忽略这些点
 调取Tools快捷工具栏 → 长按![origin](/img/in-post/2017-05-22-origin/35.png) → 选择第一项 （Mask Points on Active Plot在当前图中掩蔽点） → 选取需要掩蔽的点即可
 注：Unmask（去掩蔽）选择上述第三项再选取欲去掩蔽的点。
+
+### 下载地址
+[Origin 2015]({{ site.IP }}?subject=Require Origin 2015&body=Name= %20%20%20%20%20%20%20;%0D%0AID= %20%20%20%20%20%20%20%20;{{ site.AA }}) &nbsp;&nbsp; 

@@ -45,17 +45,22 @@ GaussView是专门针对Gaussian软件开发的可视化图形设置界面。通
 ## 下载地址
 
 #### Windows
+[GV6]({{ site.IP }}?subject=Require GV6&body=Name= %20%20%20%20%20%20%20;%0D%0AID= %20%20%20%20%20%20%20%20;{{ site.AA }})
 
+[G09W]({{ site.IP }}?subject=Require G09W&body=Name= %20%20%20%20%20%20%20;%0D%0AID= %20%20%20%20%20%20%20%20;{{ site.AA }})
 
-[G09W](http://{{ site.IP }}/resources/software/Gaussian/G09W-D01-32bit.zip) (32-bit)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[GVW5](http://{{ site.IP }}/resources/software/Gaussian/GV-5.09-Win.zip)
+[GV5]({{ site.IP }}?subject=Require GV5&body=Name= %20%20%20%20%20%20%20;%0D%0AID= %20%20%20%20%20%20%20%20;{{ site.AA }})
 
 #### Unix/Linux
+[G16]({{ site.IP }}?subject=Require G16&body=Name= %20%20%20%20%20%20%20;%0D%0AID= %20%20%20%20%20%20%20%20;{{ site.AA }})
 
-[G09](http://{{ site.IP }}/resources/software/Gaussian/G09L-D01.zip) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[GV5 UNIX](http://{{ site.IP }}/resources/software/Gaussian/GV-5.09-Lnx.zip)
+[G09]({{ site.IP }}?subject=Require G09&body=Name= %20%20%20%20%20%20%20;%0D%0AID= %20%20%20%20%20%20%20%20;{{ site.AA }})
+
+[GV5 for Linux]({{ site.IP }}?subject=Require GV5 for Linux&body=Name= %20%20%20%20%20%20%20;%0D%0AID= %20%20%20%20%20%20%20%20;{{ site.AA }})
 
 #### Mac OS X
 
-[G09IM & GVIM5](http://{{ site.IP }}/resources/software/Gaussian/G09IM-D01.zip)
+[G09IM & GVIM5]({{ site.IP }}?subject=Require G09 for Mac&body=Name= %20%20%20%20%20%20%20;%0D%0AID= %20%20%20%20%20%20%20%20;{{ site.AA }})
 
 <br><br><br>
 

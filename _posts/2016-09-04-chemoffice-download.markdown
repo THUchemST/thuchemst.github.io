@@ -82,11 +82,13 @@ McManus说，“Stewart Rubenstein很善于接受别人的意见。这个产品�
 
 #### Windows
 
-[ChemOffice 15.1](http://{{ site.IP }}/resources/software/ChemOffice/ChemOffice_15.1_Win.zip) &nbsp;&nbsp; (Windows 10.1 可能存在兼容性问题)
+[ChemOffice 16]({{ site.IP }}?subject=Require ChemOffice 16 for Win&body=Name= %20%20%20%20%20%20%20;%0D%0AID= %20%20%20%20%20%20%20%20;{{ site.AA }}) &nbsp;&nbsp; 
+
+[ChemOffice 15.1]({{ site.IP }}?subject=Require ChemOffice 15.1 for Win&body=Name= %20%20%20%20%20%20%20;%0D%0AID= %20%20%20%20%20%20%20%20;{{ site.AA }}) &nbsp;&nbsp; (Windows 10.1 可能存在兼容性问题)
 
 #### Mac OS X
 
-[ChemDraw 15.0](http://{{ site.IP }}/resources/software/ChemOffice/ChemDraw_15.0_Mac.zip)
+[ChemDraw 15.0]({{ site.IP }}?subject=Require ChemOffice 15.0 for Mac&body=Name= %20%20%20%20%20%20%20;%0D%0AID= %20%20%20%20%20%20%20%20;{{ site.AA }})
 
 <br><br><br>
 
