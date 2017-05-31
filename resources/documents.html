@@ -1,0 +1,29 @@
+---
+layout: page
+title: "Resources - Documents"
+description: "Softwares, Books and More" 
+header-img: "img/resources-bg.jpg"
+hide: 1
+---
+
+
+<h2> 课题组组会（有机部分） </h2>
+<div class="post-preview">
+{% for post in site.data.documents-1 %}
+        <h3 class="post-title">
+            <br>
+            <a href="{{ post.url }}">
+            {{ post.title }}
+            </a>
+			&nbsp;&nbsp;&nbsp;
+
+            {% if post.platform == "pan" %}
+            <a href="{{ post.panurl }}">
+            <img src=/img/pan.png height="25px"></a>
+            &nbsp;
+            {% endif %}
+        </h3>
+        
+{% endfor %}
+
+</div>

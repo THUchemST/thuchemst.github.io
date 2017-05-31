@@ -72,16 +72,17 @@ layout: default
 
 {% if page.title %}
 {% else %}
-<!--add from sci-lib start-->
+
+<!-- Add Bing Academic Search -->
 <div>
-	<form class="form-wrapper cf" action="http://scholar.scilib.org/" target="_blank">
-        <input type="text" placeholder="Reference Resolver" required name="q">
+	<form class="form-wrapper cf" action="http://www.bing.com/academic/search/" target="_blank">
+        <input type="text" placeholder="Bing Search" required name="q">
         <button type="submit">Search</button>
 	</form> 
-   <p id="BlankLine" align="center" style="font-size:11px; color:#666666; margin-top:-10px;">Provided by <a href="http://www.scilib.org"> scilib.org </a></p>
+   <p id="BlankLine" align="center" style="font-size:11px; color:#666666; margin-top:-10px;">Provided by <a href="http://www.bing.com"> bing.com </a></p>
 </div>
-{% endif %}
 
+{% endif %}
 
 <!-- Main Content -->
 <div class="container">

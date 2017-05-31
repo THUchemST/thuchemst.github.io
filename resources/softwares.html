@@ -1,0 +1,90 @@
+---
+layout: page
+title: "Resources - Softwares"
+description: "Softwares, Books and More" 
+header-img: "img/resources-bg.jpg"
+hide: 1
+---
+
+<h2>软件教程及下载地址</h2>
+
+<div class="post-preview">
+{% for post in site.data.softwares-1 %}
+   <a href="{{ post.url }}">
+        <h3 class="post-title">
+            <br>
+            {{ post.title }}
+    </a>
+			&nbsp;&nbsp;&nbsp;
+        {% for platform in post.platform %}
+        {% if platform == "win" %}
+            <img src=/img/win.png height="25px">
+            &nbsp;
+        {% endif %}
+
+        {% if platform == "lnx" %}
+            <img src=/img/lnx.png height="25px">
+            &nbsp;
+        {% endif %}
+        
+        {% if platform == "mac" %}
+            <img src=/img/mac.png height="25px">
+            &nbsp;
+        {% endif %}
+        
+        {% if platform == "source" %}
+            <img src=/img/sourcecode.png height="25px">
+            &nbsp;
+        {% endif %}
+        {% endfor %}
+        </h3>
+        
+{% endfor %}
+
+<hr>
+
+</div>
+
+
+<h2>其他软件</h2>
+<div class="post-preview">
+{% for post in site.data.softwares-2 %}
+        <h3 class="post-title">
+            <br>
+            {{ post.title }} &nbsp;&nbsp;&nbsp;
+
+        {% for platform in post.platform %}
+        {% if platform == "win" %}
+            <img src=/img/win.png height="25px">
+            &nbsp;
+        {% endif %}
+
+        {% if platform == "lnx" %}
+            <img src=/img/lnx.png height="25px">
+            &nbsp;
+        {% endif %}
+        
+        {% if platform == "mac" %}
+            <img src=/img/mac.png height="25px">
+            &nbsp;
+        {% endif %}
+        
+        {% if platform == "source" %}
+            <img src=/img/sourcecode.png height="25px">
+            &nbsp;
+        {% endif %}
+        {% endfor %}
+        </h3>
+
+        
+        {% for version in post.versions %}
+        <a href="{{ site.IP }}?{{ site.SU }}%20{{ post.title }}%20{{ version }}&{{ site.IN }}{{ site.AA }}"><h4 style="color:grey;font-weight:normal;float:left; margin-left:5%"> {{ version }} </h4></a>
+        {% endfor %} 
+        
+
+{% endfor %}
+
+</div>
+
+
+
