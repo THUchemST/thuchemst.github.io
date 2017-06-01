@@ -5,9 +5,10 @@ description: "Softwares, Books and More"
 header-img: "img/resources-bg.jpg"
 hide: 1
 ---
-
-
-<h2> 课题组组会（有机部分） </h2>
+<h2 style="color: black"> 少年更新中... </h2>
+<br />
+<div id="GroupMeetingsTitle"><a href="#GroupMeetings" data-toggle="collapse" style="text-decoration: none;"><h2> 课题组组会（有机部分） </h2></a></div> 
+<div id="GroupMeetings" class="collapse"> 
 <div class="post-preview">
 {% for post in site.data.documents-1 %}
         <h3 class="post-title">
@@ -15,7 +16,7 @@ hide: 1
             <a href="{{ post.url }}">
             {{ post.title }}
             </a>
-			&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;
 
             {% if post.platform == "pan" %}
             <a href="{{ post.panurl }}">
@@ -23,7 +24,32 @@ hide: 1
             &nbsp;
             {% endif %}
         </h3>
-        
 {% endfor %}
-
 </div>
+</div>
+<br />
+<div id="BooksTitle"><a href="#Books" data-toggle="collapse" style="text-decoration: none;"><h2> 书籍和讲义 </h2></a></div> 
+<div id="Books" class="collapse"> 
+<div class="post-preview">
+{% for post in site.data.documents-2 %}
+        <h3 class="post-title">
+            <br>
+            <a href="{{ post.url }}">
+            {{ post.title }}
+            </a>
+            &nbsp;&nbsp;&nbsp;
+
+            {% if post.platform == "pan" %}
+            <a href="{{ post.panurl }}">
+            <img src=/img/pan.png height="25px" style="cursor:pointer"></a>
+            &nbsp;
+            {% endif %}
+        </h3>
+{% endfor %}
+</div>
+</div> 
+<script type="text/javascript" src="/twitter-bootstrap/twitter-bootstrap-v2/docs/assets/js/jquery.js"></script> 
+<script type="text/javascript" src="/twitter-bootstrap/twitter-bootstrap-v2/docs/assets/js/bootstrap-collapse.js"></script>
+
+
+

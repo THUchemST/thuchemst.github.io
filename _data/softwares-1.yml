@@ -2,11 +2,6 @@
   platform: [win, mac, lnx, source]
   url: /2016/08/01/gaussian-download/index.html#download
 
-
 - title: ChemOffice
   platform: [win, mac]
   url: /2016/09/04/chemoffice-download/index.html#download
-
-- title: 未整理软件
-  platform: [win, mac, lnx, source]
-  url: /1989/06/04/unsorted-software/index.html

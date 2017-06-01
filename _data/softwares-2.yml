@@ -2,3 +2,23 @@
   platform: [win, mac, lnx, source]
   versions: [2016-3, 2013-2]
 
+- title: MestReNova
+  platform: [win, mac]
+
+- title: Materials Studio
+  platform: [win]
+
+- title: MathType
+  platform: [win]
+
+- title: LaTeX
+  platform: [mac]
+
+- title: Avogadro
+  platform: [win, mac, source]
+
+- title: MOPAC
+  platform: [win]
+
+- title: Molecule Tools
+  platform: [mac]
