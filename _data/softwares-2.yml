@@ -2,6 +2,13 @@
   platform: [win, mac, lnx, source]
   versions: [2016-3, 2013-2]
 
+- title: Amber
+  platform: [lnx]
+  versions: [9, 10, 11, 12, 14, 16]
+
+- title: ORCA 4.0
+  platform: [win, lnx]
+
 - title: MestReNova
   platform: [win, mac]
 
