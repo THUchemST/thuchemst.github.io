@@ -2,9 +2,8 @@
   platform: [win, mac, lnx, source]
   versions: [2016-3, 2013-2]
 
-- title: Amber
+- title: Amber16
   platform: [lnx]
-  versions: [9, 10, 11, 12, 14, 16]
 
 - title: ORCA 4.0
   platform: [win, lnx]
