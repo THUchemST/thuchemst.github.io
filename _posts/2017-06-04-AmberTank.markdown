@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "用Amber模拟TANK基因的表达产物"
+title:      "Amber入门: 水中的蛋白质"
 date:       2017-06-04 0:00:00
 author:     "YM Ma"
 stick: 0
