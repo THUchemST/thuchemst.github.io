@@ -20,7 +20,7 @@ tags:
 
 对蛋白质的模拟需要首先从蛋白质结构数据库中获得记录了蛋白质三维结构的PDB文件；利用Amber中的leap程序获得模拟需要的拓扑文件，随后用sander程序进行能量最小化、高温平衡，再进行模拟得到体系的各种性质。
 
-本教程一台安装了Linux操作系统和Amber程序的计算机。笔者使用Amber 16的并行版本，其他版本按照相似方法也可进行模拟。
+本教程需要一台安装了Linux操作系统和Amber程序的计算机。笔者使用Amber 16的并行版本，其他版本按照相似方法也可进行模拟。
 
 直接从数据库中下载的pdb文件（1kzz.pdb）缺少氢原子，需要首先用Amber中的pdb4amber程序将其转化为可用的格式。其中-o表示输出文件，--dry表示去掉水分子，--reduce表示补充缺少的原子信息。
 ![Amber](/img/in-post/2017-06-04-AmberTank/1.jpg)
@@ -38,7 +38,7 @@ tags:
 计算工作由sander程序完成。笔者使用的是并行版的Amber，输入mpirun -np 16 sander.MPI -O -i min.in -o min.out -p prmtop -c inpcrd -r min.rst -inf min.mdinfo; 如果是串行版本，直接从sander开始输入即可。
 ![Amber](/img/in-post/2017-06-04-AmberTank/5.jpg)
 <center>图<strong>5.</strong> sander</center>
-最小化完成后，输入mpirun -np 16 sander -O -i heat.in -o heat.out -p prmtop -c min.rst -r heat.rst -x heat.mdcrd -inf heat.mdinfo；完成后再用类似手续运行prod.in.
+最小化完成后，输入mpirun -np 16 sander.MPI -O -i heat.in -o heat.out -p prmtop -c min.rst -r heat.rst -x heat.mdcrd -inf heat.mdinfo；完成后再用类似手续运行prod.in.
 全部结束之后，运行process_mdout.perl heat.out prod.out，将得到大量以Summary开头的文件，包含体系热力学性质随时间的信息。可以使用xmgrace命令（需要安装相应软件）作图。
 ![Amber](/img/in-post/2017-06-04-AmberTank/6.jpg)
 <center>图<strong>6.</strong> xmgrace</center>

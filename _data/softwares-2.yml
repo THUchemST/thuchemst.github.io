@@ -1,18 +1,15 @@
-- title: Gromacs
-  platform: [win, mac, lnx, source]
-  versions: [2016-3, 2013-2]
-
 - title: Amber16
   platform: [lnx]
 
-- title: ORCA 4.0
-  platform: [win, lnx]
+- title: Avogadro
+  platform: [win, mac, source]
 
-- title: Origin 2015
-  platform: [win]
-
-- title: MestReNova
-  platform: [win, mac]
+- title: Gromacs
+  platform: [win, mac, lnx, source]
+  versions: [2016-3, 2013-2]
+  
+- title: LaTeX
+  platform: [mac]
 
 - title: Materials Studio
   platform: [win]
@@ -20,14 +17,17 @@
 - title: MathType
   platform: [win]
 
-- title: LaTeX
-  platform: [mac]
+- title: MestReNova
+  platform: [win, mac]
 
-- title: Avogadro
-  platform: [win, mac, source]
+- title: Molecule Tools
+  platform: [mac]
 
 - title: MOPAC
   platform: [win]
 
-- title: Molecule Tools
-  platform: [mac]
+- title: ORCA 4.0
+  platform: [win, lnx]
+
+- title: Origin 2015
+  platform: [win]
