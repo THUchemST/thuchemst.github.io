@@ -4,6 +4,9 @@
 - title: Avogadro
   platform: [win, mac, source]
 
+- title: CYLView
+  platform: [win]
+
 - title: Gromacs
   platform: [win, mac, lnx, source]
   versions: [2016-3, 2013-2]
@@ -26,8 +29,29 @@
 - title: MOPAC
   platform: [win]
 
+- title: MRCC
+  platform: [lnx]
+
+- title: NAMD
+  platform: [lnx, win, source]
+
 - title: ORCA 4.0
   platform: [win, lnx]
 
 - title: Origin 2015
   platform: [win]
+
+- title: Pymol
+  platform: [win, mac]
+
+- title: Schrodinger
+  platform: [win, mac]
+
+- title: Turbomole 7.1
+  platform: [win]
+
+- title: VASP
+  platform: [win, lnx, source]
+
+- title: VMD 1.9.3
+  platform: [win, lnx, source]
