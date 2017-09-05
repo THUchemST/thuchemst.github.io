@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "郭爷女装"
+title: "Alpha Effect"
 date:  2017-08-05 12:00:00
 author: "YM Ma"
 header-img: "img/post-bg-alpha.jpg"
