@@ -16,7 +16,7 @@ tags:
 ---
 ### 软件下载
 
-<a href='/resources/gv6.exe'>GaussView 6</a>
+<a href='/resources/gv6.exe'>GaussView 6 (V64128473351848W-5826N)</a>
 
 <a href='/resources/MobaXterm.zip'>MobaXterm</a>
 
